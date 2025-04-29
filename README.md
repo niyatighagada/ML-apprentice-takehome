@@ -6,7 +6,7 @@ Objective
 
 The goal of this project is to implement, train, and optimize neural network architectures focusing on transformers and multi-task learning (MTL). Below is my solution with detailed explanations and justifications for each design choice.
 
-Task 1: Sentence Transformer Implementation
+## Task 1: Sentence Transformer Implementation
 
 Approach
 
@@ -24,7 +24,7 @@ Testing
 
 I validated the model by encoding a few sample sentences and confirming that embeddings of expected shape (batch_size x hidden_size) were obtained.
 
-Task 2: Multi-Task Learning Expansion
+## Task 2: Multi-Task Learning Expansion
 
 Approach
 
@@ -50,7 +50,7 @@ Reasoning
 
 MTL allows the model to learn a shared representation beneficial across tasks, improving generalization and reducing overfitting.
 
-Task 3: Training Considerations
+## Task 3: Training Considerations
 
 Scenario Analysis
 
@@ -94,7 +94,7 @@ Gradually allow learning new domain-specific nuances.
 
 Reduces risk of catastrophic forgetting.
 
-Task 4: Training Loop Implementation (BONUS)
+## Task 4: Training Loop Implementation 
 
 Assumptions and Decisions
 
@@ -124,10 +124,10 @@ For production, metrics like Accuracy, F1-score, Precision/Recall would be added
 
 How to Run the Project
 
-# Install dependencies
+### Install dependencies
 pip install -r requirements.txt
 
-# Run the training script
+### Run the training script
 python main.py
 
 Requirements

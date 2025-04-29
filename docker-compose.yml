@@ -1,0 +1,9 @@
+version: '3.8'
+
+services:
+  ml_apprentice:
+    build: .
+    container_name: ml_apprentice
+    volumes:
+      - .:/app
+    command: python main.py

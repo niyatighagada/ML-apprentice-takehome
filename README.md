@@ -120,7 +120,7 @@ Branch into two heads for dual outputs.
 
 Metrics:
 
-For production, metrics like Accuracy, F1-score, Precision/Recall would be added separately for each task
+For production, metrics like Accuracy, F1-score, Precision/Recall is added separately for each task
 
 ## Docker Usage
 
@@ -144,9 +144,6 @@ pip install -r requirements.txt
 # Run the training script and inference 
 python main.py </pre>
 
-## Evaluation Metrics
-Accuracy and F1-score is added using sklearn.metrics
-note: The accuracy and F1-score were implemented and printed during training. Since dummy data is used, the model quickly overfits, which is reflected in high metric scores after just a few epochs. 
 
 
 

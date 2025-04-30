@@ -135,22 +135,18 @@ Removes dependency on local Python installations or OS configuration.
 
 ## How to Run the Project
 ### With Docker 
-<pre> ```bash docker-compose up --build ``` </pre>
+<pre> docker-compose up --build </pre>
 
 ### Without Docker
-<pre> # Install dependencies 
-       pip install -r requirements.txt 
-      # Run the training script and inference 
-       python main.py </pre>
-### Install dependencies
-pip install -r requirements.txt
+<pre>
+# Install dependencies 
+pip install -r requirements.txt 
+# Run the training script and inference 
+python main.py </pre>
 
-### Run the training script
-python main.py
-
-Requirements
-
-See requirements.txt for dependencies
+## Evaluation Metrics
+Accuracy and F1-score is added using sklearn.metrics
+note: The accuracy and F1-score were implemented and printed during training. Since dummy data is used, the model quickly overfits, which is reflected in high metric scores after just a few epochs. 
 
 
 

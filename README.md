@@ -122,8 +122,23 @@ Metrics:
 
 For production, metrics like Accuracy, F1-score, Precision/Recall would be added separately for each task
 
-How to Run the Project
+## Docker Usage
 
+Docker was included to demonstrate containerized reproducibility and ease of setup. The Dockerfile and docker-compose.yml provide a fully self-contained way to build and run the project with all dependencies resolved.
+
+### Why Docker?
+
+Ensures consistent environments across machines.
+
+Removes dependency on local Python installations or OS configuration.
+
+
+## How to Run the Project
+### With Docker 
+<pre> ```bash docker-compose up --build ``` </pre>
+
+### Without Docker
+<pre> ```bash # Install dependencies pip install -r requirements.txt # Run the training script and inference python main.py ``` </pre>
 ### Install dependencies
 pip install -r requirements.txt
 

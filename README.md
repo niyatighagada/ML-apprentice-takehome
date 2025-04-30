@@ -154,5 +154,6 @@ The main.py script has been updated to show both the embedding outputs for Task 
 
 Dummy data was used to simulate inputs for demonstration purposes. The architecture is easily extendable to real datasets.
 
+I'm excited to hear your feedback and happy to walk through any part of the implementation in detail if needed.
 
-
+Thank you again!

@@ -148,8 +148,6 @@ python main.py </pre>
 
 Thank you for taking the time to review my submission.
 
-All tasks (1 through 4) have been addressed with clean modular code and appropriate comments.
-
 The main.py script has been updated to show both the embedding outputs for Task 1 and the training loop for Task 4.
 
 Dummy data was used to simulate inputs for demonstration purposes. The architecture is easily extendable to real datasets.

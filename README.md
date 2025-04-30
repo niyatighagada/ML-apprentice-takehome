@@ -138,7 +138,10 @@ Removes dependency on local Python installations or OS configuration.
 <pre> ```bash docker-compose up --build ``` </pre>
 
 ### Without Docker
-<pre> ```bash # Install dependencies pip install -r requirements.txt # Run the training script and inference python main.py ``` </pre>
+<pre> # Install dependencies 
+       pip install -r requirements.txt 
+      # Run the training script and inference 
+       python main.py </pre>
 ### Install dependencies
 pip install -r requirements.txt
 
